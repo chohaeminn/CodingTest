@@ -29,10 +29,10 @@ from collections import defaultdict
 def solution(tickets):
     routes = defaultdict(list)
 
-    for start, end in sorted(tockets, reverse = True):
+    for start, end in sorted(tickets, reverse = True):
         routes[start].append(end)
 
-    start = ['ICN']
+    stack = ['ICN']
     path = []
 
     while stack:
