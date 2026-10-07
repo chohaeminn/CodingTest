@@ -25,4 +25,4 @@ def solution(bridge_length, weight, truck_weights):
                 # 무게를 견딜 수 없으면 트럭 대신 0을 올림 (시간 흐름 표현)
                 bridge.append(0)
                 
-    return time
+    return time 
